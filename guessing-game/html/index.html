@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='../css/main.css'>
+</head>
+<body>
+    <h1 id='title'>Matt's Guessing Game</h1>
+    <div>
+        <h4 id='win-loss'>Wins: 0 - Losses: 0</h4>
+        <h4 id='win-loss-ratio'>W/R ratio: 0</h4>
+    </div>
+    <div>
+        <h2 id='guesses'>Guesses</h2>
+        <ol id='guess-list'>
+            <li id='guess-1'></li>
+            <li id='guess-2'></li>
+            <li id='guess-3'></li>
+            <li id='guess-4'></li>
+            <li id='guess-5'></li>
+        </ol>
+
+        Guess a number between 1-100!<br> <input id='guess-field' type='number' placeholder="enter your guess"> 
+        <br>
+        <button id="submit-number-button">Submit</button>
+        <br>
+        <button id='reset-button'>Reset</button>
+        <br>
+        <button id='hint-button'>Hint</button>
+    </div>
+
+    <script src="../js/game.js"></script>
+</body>
+</html>
